@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 30px;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -18,7 +21,6 @@ h1{
     color: goldenrod;
 }
 .top-banner{
-    border: 1px solid red;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
@@ -39,8 +41,32 @@ a:hover{
     font-weight: 700;
 }
 .middle{
-    border: 1px solid red;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.bottom{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+#full{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #0cbb0c, aqua);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #c92727, #c48322);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
 }
